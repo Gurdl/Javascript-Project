@@ -1,2 +1,3 @@
 # Javascript-Project
-This repository include the JavaScript files on which I worked in my college semester and learned about javacript
+This repository include the JavaScript files on which I worked in my college semester and learned about javacript language in detail.
+
