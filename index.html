@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<!--by Gurdev singh-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Canvas: Monsters Zoo</title>
+    <link href="css/sstyle.css" rel="stylesheet" />  <!--external CSS-->
+    <script src="js/drawingLibrary.js"></script>
+    <script src="js/characters.js"></script>
+    <script src="js/shapes.js"></script>
+</head>
+<body onload="setup()">
+    <div id="container">
+        <canvas id="drawingBox1" width="700" height="700" tabindex="1">
+            Your browser does not support HTML5 Canvas.
+        </canvas>
+
+        <table>
+            <tr>
+                <td><button class="moveBtn" id='NW'>&nwArr;</button></td>
+                <td><button class="moveBtn" id='N'>&uArr;</button></td>
+                <td><button class="moveBtn" id='NE'>&neArr;</button></td>
+            </tr>
+            <tr>
+                <td><button class="moveBtn" id='W'>&lArr;</button></td>
+                <td><button class="moveBtn" id='C'>Reset</button></td>
+                <td><button class="moveBtn" id='E'>&rArr;</button></td>
+            </tr>
+            <tr>
+                <td><button class="moveBtn" id='SW'>&swArr;</button></td>
+                <td><button class="moveBtn" id='S'>&dArr;</button></td>
+                <td><button class="moveBtn" id='SE'>&seArr;</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
